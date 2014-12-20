@@ -14,7 +14,12 @@
 		DA43BC591A4406980033B606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA43BC571A4406980033B606 /* Main.storyboard */; };
 		DA43BC5B1A4406980033B606 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA43BC5A1A4406980033B606 /* Images.xcassets */; };
 		DA43BC5E1A4406980033B606 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA43BC5C1A4406980033B606 /* LaunchScreen.xib */; };
-		DA43BC6A1A4406980033B606 /* SandPitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43BC691A4406980033B606 /* SandPitTests.m */; };
+		DA43BC751A44525F0033B606 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43BC741A44525F0033B606 /* Employee.m */; };
+		DA43BC761A44525F0033B606 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43BC741A44525F0033B606 /* Employee.m */; };
+		DA43BC791A4452600033B606 /* Employer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43BC781A4452600033B606 /* Employer.m */; };
+		DA43BC7A1A4452600033B606 /* Employer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43BC781A4452600033B606 /* Employer.m */; };
+		DAE9ABE81A44FBAD00AE157D /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9ABE71A44FBAD00AE157D /* Worker.m */; };
+		DAE9ABEA1A44FC2E00AE157D /* TestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9ABE91A44FC2E00AE157D /* TestWorker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +46,13 @@
 		DA43BC5D1A4406980033B606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DA43BC631A4406980033B606 /* SandPitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandPitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA43BC681A4406980033B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA43BC691A4406980033B606 /* SandPitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandPitTests.m; sourceTree = "<group>"; };
+		DA43BC731A44525F0033B606 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		DA43BC741A44525F0033B606 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		DA43BC771A4452600033B606 /* Employer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employer.h; sourceTree = "<group>"; };
+		DA43BC781A4452600033B606 /* Employer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employer.m; sourceTree = "<group>"; };
+		DAE9ABE61A44FBAD00AE157D /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		DAE9ABE71A44FBAD00AE157D /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
+		DAE9ABE91A44FC2E00AE157D /* TestWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestWorker.m; path = SandPitTests/TestWorker.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +102,12 @@
 				DA43BC5A1A4406980033B606 /* Images.xcassets */,
 				DA43BC5C1A4406980033B606 /* LaunchScreen.xib */,
 				DA43BC511A4406980033B606 /* SandPit.xcdatamodeld */,
+				DAE9ABE61A44FBAD00AE157D /* Worker.h */,
+				DAE9ABE71A44FBAD00AE157D /* Worker.m */,
+				DA43BC771A4452600033B606 /* Employer.h */,
+				DA43BC781A4452600033B606 /* Employer.m */,
+				DA43BC731A44525F0033B606 /* Employee.h */,
+				DA43BC741A44525F0033B606 /* Employee.m */,
 				DA43BC4A1A4406980033B606 /* Supporting Files */,
 			);
 			path = SandPit;
@@ -108,7 +125,7 @@
 		DA43BC661A4406980033B606 /* SandPitTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA43BC691A4406980033B606 /* SandPitTests.m */,
+				DAE9ABE91A44FC2E00AE157D /* TestWorker.m */,
 				DA43BC671A4406980033B606 /* Supporting Files */,
 			);
 			path = SandPitTests;
@@ -222,7 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA43BC751A44525F0033B606 /* Employee.m in Sources */,
+				DAE9ABE81A44FBAD00AE157D /* Worker.m in Sources */,
 				DA43BC501A4406980033B606 /* AppDelegate.m in Sources */,
+				DA43BC791A4452600033B606 /* Employer.m in Sources */,
 				DA43BC4D1A4406980033B606 /* main.m in Sources */,
 				DA43BC561A4406980033B606 /* ViewController.m in Sources */,
 				DA43BC531A4406980033B606 /* SandPit.xcdatamodeld in Sources */,
@@ -233,7 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA43BC6A1A4406980033B606 /* SandPitTests.m in Sources */,
+				DAE9ABEA1A44FC2E00AE157D /* TestWorker.m in Sources */,
+				DA43BC761A44525F0033B606 /* Employee.m in Sources */,
+				DA43BC7A1A4452600033B606 /* Employer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SandPit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SandPit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +442,7 @@
 				DA43BC6F1A4406980033B606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA43BC701A4406980033B606 /* Build configuration list for PBXNativeTarget "SandPitTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				DA43BC721A4406980033B606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
