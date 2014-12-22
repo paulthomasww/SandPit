@@ -14,10 +14,6 @@
 		DA43BC591A4406980033B606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA43BC571A4406980033B606 /* Main.storyboard */; };
 		DA43BC5B1A4406980033B606 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA43BC5A1A4406980033B606 /* Images.xcassets */; };
 		DA43BC5E1A4406980033B606 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA43BC5C1A4406980033B606 /* LaunchScreen.xib */; };
-		DA43BC751A44525F0033B606 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43BC741A44525F0033B606 /* Employee.m */; };
-		DA43BC761A44525F0033B606 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43BC741A44525F0033B606 /* Employee.m */; };
-		DA43BC791A4452600033B606 /* Employer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43BC781A4452600033B606 /* Employer.m */; };
-		DA43BC7A1A4452600033B606 /* Employer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA43BC781A4452600033B606 /* Employer.m */; };
 		DAE9ABE81A44FBAD00AE157D /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9ABE71A44FBAD00AE157D /* Worker.m */; };
 		DAE9ABEA1A44FC2E00AE157D /* TestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9ABE91A44FC2E00AE157D /* TestWorker.m */; };
 /* End PBXBuildFile section */
@@ -46,10 +42,6 @@
 		DA43BC5D1A4406980033B606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DA43BC631A4406980033B606 /* SandPitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandPitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA43BC681A4406980033B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA43BC731A44525F0033B606 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
-		DA43BC741A44525F0033B606 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
-		DA43BC771A4452600033B606 /* Employer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employer.h; sourceTree = "<group>"; };
-		DA43BC781A4452600033B606 /* Employer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employer.m; sourceTree = "<group>"; };
 		DAE9ABE61A44FBAD00AE157D /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
 		DAE9ABE71A44FBAD00AE157D /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
 		DAE9ABE91A44FC2E00AE157D /* TestWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestWorker.m; path = SandPitTests/TestWorker.m; sourceTree = SOURCE_ROOT; };
@@ -104,10 +96,6 @@
 				DA43BC511A4406980033B606 /* SandPit.xcdatamodeld */,
 				DAE9ABE61A44FBAD00AE157D /* Worker.h */,
 				DAE9ABE71A44FBAD00AE157D /* Worker.m */,
-				DA43BC771A4452600033B606 /* Employer.h */,
-				DA43BC781A4452600033B606 /* Employer.m */,
-				DA43BC731A44525F0033B606 /* Employee.h */,
-				DA43BC741A44525F0033B606 /* Employee.m */,
 				DA43BC4A1A4406980033B606 /* Supporting Files */,
 			);
 			path = SandPit;
@@ -239,10 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA43BC751A44525F0033B606 /* Employee.m in Sources */,
 				DAE9ABE81A44FBAD00AE157D /* Worker.m in Sources */,
 				DA43BC501A4406980033B606 /* AppDelegate.m in Sources */,
-				DA43BC791A4452600033B606 /* Employer.m in Sources */,
 				DA43BC4D1A4406980033B606 /* main.m in Sources */,
 				DA43BC561A4406980033B606 /* ViewController.m in Sources */,
 				DA43BC531A4406980033B606 /* SandPit.xcdatamodeld in Sources */,
@@ -254,8 +240,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE9ABEA1A44FC2E00AE157D /* TestWorker.m in Sources */,
-				DA43BC761A44525F0033B606 /* Employee.m in Sources */,
-				DA43BC7A1A4452600033B606 /* Employer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
